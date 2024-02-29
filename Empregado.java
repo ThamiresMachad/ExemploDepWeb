@@ -31,10 +31,29 @@ public class Empregado{
     this.idade = idade;
     }
 
-        public void setTipo (int tipo){
+    public void setTipo (int tipo){
     this.tipo = tipo;
     }
     public int getTipo (){
     return this.tipo;
+    }
+
+    public void setSalario (double salario){
+    this.salario = salario;
+    }
+    public double getSalario (){
+    return this.salario;
+    }
+    public void setComissao (double comissao){
+    this.comissao = comissao;
+    }
+    public double getComissao (){
+    return this.comissao;
+    }
+    public void setBonus (double bonus){
+    this.bonus = bonus;
+    }
+    public double getBonus (){
+    return this.bonus;
     }
 }
